@@ -11,6 +11,24 @@
                              max depth of right subtree) 
                              + 1
      (d) Return max_depth
+     
+     
+     maxDepth('1') = max(maxDepth('2'), maxDepth('3')) + 1
+                               = 2 + 1
+                                  /    \
+                                /         \
+                              /             \
+                            /                 \
+                          /                     \
+               maxDepth('2') = 1                maxDepth('3') = 1
+= max(maxDepth('4'), maxDepth('5')) + 1
+= 1 + 1   = 2         
+                   /    \
+                 /        \
+               /            \
+             /                \
+           /                    \
+ maxDepth('4') = 1     maxDepth('5') = 1
  """
 # Python program to find the maximum depth of tree
  
