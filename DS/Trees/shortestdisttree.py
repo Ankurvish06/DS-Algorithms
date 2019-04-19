@@ -21,3 +21,5 @@ for _ in range(t):
                     j = (j-1)//2
                     l+=1
     print(l)
+
+    https://www.codechef.com/viewsolution/24031912
