@@ -1,5 +1,5 @@
 https://codeforces.com/problemset/problem/987/C
-
+Can be used for outward for palindrome
 
 n = int(input())
 a = list(map(int,input().split()))
