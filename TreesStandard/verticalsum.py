@@ -1,4 +1,4 @@
-https://practice.geeksforgeeks.org/problems/vertical-sum/1
+#https://practice.geeksforgeeks.org/problems/vertical-sum/1
 c = [0]*1000000
 def vs(root,c,index):
   if root is None:
